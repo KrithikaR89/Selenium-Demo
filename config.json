@@ -1,0 +1,34 @@
+{
+    "Setup" : {
+        "browser" : "Firefox",
+        "headless" : "False",
+        "pageLoadStrategy" : "normal"
+    },
+    "Load" : {
+        "page" : "https://www.google.com",
+        "page_assert" : "Google"
+    },
+    "Search" : {
+        "search_string" : "Amazon",
+        "search_link" : "www.amazon.com",
+        "link_assert" : "Amazon"
+    },
+    "SignIn" : {
+        "load_link" : "https://www.amazon.com",
+        "signin_account" : "xyzxyzxyz",
+        "signin_password" : "xyzxyzxyz"
+    },
+    "Cart" : {
+        "search_item" : "Planters",
+        "search_dept" : "Home & Kitchen",
+        "item_lookup_1" : "Garden",
+        "item_lookup_2" : "Outdoor",
+        "item_lookup_3" : "Pot",
+        "order_quantity" : "4",
+        "coupon_clip" : "True"
+    },
+    "Country" : {
+        "current_country" : "United States",
+        "new_country" : "Australia"
+    }  
+}

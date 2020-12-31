@@ -1,0 +1,8 @@
+{
+    "iterations" : 4,
+    "preflight" : "True",
+    "search_tests" : "True",
+    "user_flow_tests" : "True",
+    "user_flow_add_to_cart" : "True",
+    "user_flow_country" : "True"
+}
